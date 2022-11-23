@@ -20,6 +20,9 @@
         if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact.html") {
                 window.location.href == "/Pages/ContactUs.html"
             } else {
+                const urlParams = new URLSearchParams(window.location.search);
+                const type = urlParams.get('Type');
+                console.log(type)
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://discord.com/api/webhooks/1044876545271005225/ahXWdg1R5exWFMtrvaFryPj4LKiOvj3qgMtbjwa_6SsALmd4vkr-C5vv8uyfISTBFWrz", true);
                 xhr.setRequestHeader('Content-Type', 'application/json');
