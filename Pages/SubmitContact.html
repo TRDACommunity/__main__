@@ -21,13 +21,16 @@
                 window.location.href == "/Pages/ContactUs.html"
             } else {
                 const urlParams = new URLSearchParams(window.location.search);
-                const type = urlParams.get('Type');
-                console.log(type)
+                const DiscordID = urlParams.get("DiscordID");
+                const DiscordUSER = urlParams.get("DiscordUser");
+                const Country = urlParams.get("Country");
+                const Type = urlParams.get("Type");
+                const Response = urlParams.get("Response");
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://discord.com/api/webhooks/1044876545271005225/ahXWdg1R5exWFMtrvaFryPj4LKiOvj3qgMtbjwa_6SsALmd4vkr-C5vv8uyfISTBFWrz", true);
                 xhr.setRequestHeader('Content-Type', 'application/json');
                 xhr.send(JSON.stringify({
-                    'content': window.location.href,
+                    'content': "```" + "\nDiscord ID: " + DiscordID + "\nDiscord User: " + DiscordUser + "\nCountry: " + Country + "\nType: " + Type + "\nMessage: " + Response + "```",
                     'username': 'Contact Us - BOT',
                 }));
                 setTimeout(() => { window.location.href = "/Pages/ContactSent.html" }, 1000);
