@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com/"></script>
     <script src="/js/script.js"></script>
     <meta name="description"
-        content="Hello! Welcome to TRDA [The Roblox Development Academy]. In this place we will be teaching Roblox Game Development based lessons.">
+        content="">
     <link rel="stylesheet" href="/css/style.css">
     <title>Official TRDA</title>
     <link rel="icon" type="image/x-png" href="/Assets/Other/favicon.png">
@@ -17,15 +17,18 @@
 <body cz-shortcut-listen="true" br-mode="off" saccades-color="" fixation-strength="2" saccades-interval="0"
     style="--fixation-edge-opacity:80%; --br-line-height:1; --br-boldness:600;">
     <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://discord.com/api/webhooks/1044876545271005225/ahXWdg1R5exWFMtrvaFryPj4LKiOvj3qgMtbjwa_6SsALmd4vkr-C5vv8uyfISTBFWrz", true);
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.send(JSON.stringify({
-            'content': window.location.href,
-            'username': 'Contact Us - BOT',
-        }));
-        setTimeout(() => { window.location.href = "/Pages/ContactSent.html" }, 1000);
-
+        if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact.html") {
+                window.location.href == "/Pages/ContactUs.html"
+            } else {
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "https://discord.com/api/webhooks/1044876545271005225/ahXWdg1R5exWFMtrvaFryPj4LKiOvj3qgMtbjwa_6SsALmd4vkr-C5vv8uyfISTBFWrz", true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify({
+                    'content': window.location.href,
+                    'username': 'Contact Us - BOT',
+                }));
+                setTimeout(() => { window.location.href = "/Pages/ContactSent.html" }, 1000);
+            }
     </script>
     <div id="root">
         <div class="dark:bg-black w-screen bg-neutral-500 bg-gradient-to-r dark:from-rose-900/30 dark:to-gray-950">
