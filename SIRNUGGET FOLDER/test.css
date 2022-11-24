@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe');
+@import url('https://fonts.googleapis.com/css2?family=Kanit');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700');
+  
+.fire {
+  color: #C70039;
+  font-family: 'Great Vibes';
+  font-size: 80px;
+  margin: 20px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+#text {
+  font-size: 800px;
+}
+
+.copyright {  
+  color: #F0FFF0;
+  font-family: 'Rubik Microbe';
+  text-align: center;
+}
+
+.price {
+  color: #FFFFFF;
+  font-family: 'Kanit';
+  font-size: 80px;
+}
+
+.mothers-day {
+  height: 540px;
+  width: 960px;
+  margin: 10px;
+  color: #FFFFFF;
+  background-image: url('https://groklearning-cdn.com/file-uploads/00318139c89f059fa2525b009154b693a37c4176.jpg') 
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 10px 337px 10px 337px;
+  box-shadow: 1px 1px 5px 5px #4B0082;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; 
+}
+a { 
+  display: block;
+  width: 106px;
+  margin: auto;
+  font-weight: bolder;
+  font-family: Comfortaa;
+}
+
+li {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+h1 {
+  color: #dd666f;
+  height: 300px;
+  text-align: left;
+  font-size: 50px;
+  font-family: Righteous;
+  background-image: url('https://groklearning-cdn.com/problems/Q84sJtbwq6i7u8yyufK78g/header.jpg');
+  vertical-align: text-bottom;
+  box-shadow: 2px 2px 20px 20px #4B0082;
+}
+
+h2 {
+  color: #483D8B;
+  text-align: center;
+  font-size: 30px;
+  font-family: Righteous;
+}
+
+h3 {
+  color: #6A5ACD;
+  text-align: center;
+  font-size: 30px;
+  font-family: Comfortaa;
+  font-weight: bolder;
+  
+}
+
+h4 {
+  color: #483D8B;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rubik Microbe';
+}
+body {
+  background-color: BurlyWood;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  width: 1024px;
+}
