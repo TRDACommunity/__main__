@@ -18,19 +18,19 @@
     style="--fixation-edge-opacity:80%; --br-line-height:1; --br-boldness:600;">
     <script>
         if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact/") {
-            window.location.href = "/Pages/ContactUs.html"
+            window.location.href = "/Pages/ContactUs"
         }
         else {
             if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact") {
-                window.location.href = "/Pages/ContactUs.html"
+                window.location.href = "/Pages/ContactUs"
             }
             else {
                 if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact.html/") {
-                    window.location.href = "/Pages/ContactUs.html"
+                    window.location.href = "/Pages/ContactUs"
                 }
                 else {
                     if (window.location.href == "https://trdacommunity.github.io/Pages/SubmitContact.html") {
-                            window.location.href = "/Pages/ContactUs.html"
+                            window.location.href = "/Pages/ContactUs"
                         } else {
                             const urlParams = new URLSearchParams(window.location.search);
                             const DiscordID = urlParams.get("DiscordID");
@@ -45,7 +45,7 @@
                                 'content': "```" + "\nDiscord ID: " + DiscordID + "\nDiscord User: " + DiscordUser + "\nCountry: " + Country + "\nType: " + Type + "\nMessage: " + Response + "```",
                                 'username': 'Contact Us - BOT',
                             }));
-                            setTimeout(() => { window.location.href = "/Pages/ContactSent.html" }, 1000);
+                            setTimeout(() => { window.location.href = "/Pages/ContactSent" }, 1000);
                         }
                 }
             }
@@ -96,7 +96,7 @@
                                     <span class="sr-only">Discord</span>
                                 </a>
                                 <a class="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"
-                                    href="/Pages/ContactUs.html">
+                                    href="/Pages/ContactUs">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                         viewBox="0 0 512 512" height="1em" width="1em"
                                         xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill=""
