@@ -7,8 +7,8 @@
 - Other: ???
 
 # Current Developers
-- Sky.#3120
-- sirnugget#1653
+- Sky.#3120 (99%)
+- sirnugget#1653 (1%)
 
 # Discord Invite
 - https://discord.gg/g8z57fbDek
