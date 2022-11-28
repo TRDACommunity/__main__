@@ -1,9 +1,9 @@
 # This is the official web for TRDA [The Roblox Development Academy]
-- https://trdacommunity.github.io/
+- https://trda.fun/
 
 # Current Progress
 - Website: 10%
-- Lesson: 1%
+- Lesson: 5%
 - Other: ???
 
 # Current Developers
